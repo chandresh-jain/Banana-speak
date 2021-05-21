@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap'); 
+
+body{
+    font-family: Pattaya;
+    margin: 0px;
+}
+
+:root{
+    --primary-color:#FBBF24;
+
+}
+
+
+textarea{
+    width: 80%;
+    height: 10vh;
+    margin: 1rem;
+    display: block;
+    padding: 1rem;
+}
+
+#output{
+border: 1px solid black;
+padding: 1rem;
+width: 80%;
+height: 10vh;
+margin: 1rem;
+
+}
+
+.container{
+    padding: 0rem 1rem;
+}
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+.back{
+    background-color: var(--primary-color) ;
+    padding: 1rem 1rem;
+text-align: center;
+}
+
+.box{
+    margin: auto;
+}
+
+#btn-translate{
+    background-color: var(--primary-color);
+    
+}
